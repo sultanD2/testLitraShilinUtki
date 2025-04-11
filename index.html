@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="que.js" defer></script>
+	<script src="main.js" defer></script>
+</head>
+<body>
+	<div class="start-btn">
+		<button>Start Quiz</button>
+	</div>
+
+	<div class="info-box">
+		<div class="info-title">
+			<span>Правила Квиза</span>
+		</div>
+		<div class="info-list">
+			<div class="info-item">1) дается 20 секунд</div>
+			<div class="info-item">2) только один правильный ответ</div>
+			<div class="info-item"></div>
+			<div class="info-item"></div>
+			<div class="info-item"></div>
+		</div>
+		<div class="buttons">
+			<button class="quit">Выход</button>
+			<button class="start">Начать</button>
+		</div>
+	</div>
+
+	<div class="quiz-box">
+		<header>
+			<div class="title">Awesome Quiz</div>
+			<div class="timer">
+				<div class="timer-left">Time Left</div>
+				<div class="timer-sec">20</div>
+			</div>
+			<div class="timer-line"></div>
+		</header>
+		<section>
+			<div class="que-text"></div>
+			<div class="option-list"></div>
+		</section>
+		<footer>
+			<div class="total-que"></div>
+			<button class="next-btn">Next</button>
+		</footer>
+	</div>
+
+	<div class="result-box">
+		<!-- <div class="icon"></div> -->
+				<div class="complete-text">Ваш Результат</div>
+		<div class='circular-progress'>
+		<div class="score">0/0</div>
+		</div>
+		<div class="buttons">
+			<button class="quit-res">Выход</button>
+			<button class="restart">Повторить</button>
+		</div>
+	</div>
+</body>
+</html>
